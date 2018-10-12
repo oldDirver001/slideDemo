@@ -9,7 +9,7 @@ $('.main').mouseenter(function () {
   }
 })
 $('.main').mouseleave(function () {
-  // begin()
+  begin()
 })
 
 let handlePrevious = () => {
@@ -47,7 +47,7 @@ let begin = () => {
   }, 3000)
 }
 
-// begin()
+begin()
 
 let pageIndex = (sign) => {
   if (sign === '-') {
