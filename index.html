@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+  <meta charset="UTF-8">
+  <title>轮播</title>
+  <link rel="stylesheet" href="./assets/css/slide.css">
+</head>
+<body>
+<div class="main">
+  <button class="previous" onclick="handlePrevious()">&lt;</button>
+  <div class="container">
+    <img class="myBtn" src="./assets/img/photo_0.jpg" name="0" alt="">
+    <img class="myBtn" src="./assets/img/photo_1.jpg" name="1" alt="">
+    <img class="myBtn" src="./assets/img/photo_2.jpg" name="2" alt="">
+    <img class="myBtn" src="./assets/img/photo_3.jpg" name="3" alt="">
+    <img class="myBtn" src="./assets/img/photo_4.jpg" name="4" alt="">
+    <img class="myBtn" src="./assets/img/photo_5.jpg" name="5" alt="">
+    <img class="myBtn" src="./assets/img/photo_6.jpg" name="6" alt="">
+    <img class="myBtn" src="./assets/img/photo_7.jpg" name="7" alt="">
+    <img class="myBtn" src="./assets/img/photo_8.jpg" name="8" alt="">
+    <img class="myBtn" src="./assets/img/photo_9.jpg" name="9" alt="">
+  </div>
+  <button class="next" onclick="handleNext()">&gt;</button>
+  <ul class="page">
+    <li class="page-item active" name="0"></li>
+    <li class="page-item" name="1"></li>
+    <li class="page-item" name="2"></li>
+    <li class="page-item" name="3"></li>
+    <li class="page-item" name="4"></li>
+    <li class="page-item" name="5"></li>
+    <li class="page-item" name="6"></li>
+    <li class="page-item" name="7"></li>
+    <li class="page-item" name="8"></li>
+    <li class="page-item" name="9"></li>
+  </ul>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="./assets/js/slide.js"></script>
+</body>
+</html>

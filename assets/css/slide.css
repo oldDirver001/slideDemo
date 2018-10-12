@@ -1,0 +1,82 @@
+.main {
+  position: relative;
+  width: 800px;
+  height: 450px;
+  overflow: hidden;
+  margin: 200px auto;
+}
+.container {
+  position: absolute;
+  width: 8000px;
+  height: 450px;
+  left: 0;
+}
+.myBtn {
+  float: left;
+  width: 800px;
+  height: 450px;
+  background-color: #FFFFFF;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.previous {
+  position: absolute;
+  z-index: 1;
+  top: calc(50% - 40px);
+  width: 40px;
+  height: 80px;
+  background-color: #FFFFFF;
+  border: none;
+  opacity: 0.5;
+  cursor: pointer;
+  font-size: 32px;
+  outline: none;
+}
+.previous:hover {
+  background-color: #333;
+  color: #FFFFFF;
+}
+.next {
+  position: absolute;
+  z-index: 1;
+  top: calc(50% - 40px);
+  right: 0;
+  width: 40px;
+  height: 80px;
+  background-color: #FFFFFF;
+  border: none;
+  opacity: 0.5;
+  cursor: pointer;
+  font-size: 32px;
+  outline: none;
+}
+.next:hover {
+  background-color: #333;
+  color: #FFFFFF;
+}
+.page {
+  list-style: none;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+.page .page-item {
+  display: inline-block;
+  background-color: #FFFFFF;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  opacity: 0.3;
+  cursor: pointer;
+  margin: 0 2px;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+.active {
+  opacity: 1!important;
+}
