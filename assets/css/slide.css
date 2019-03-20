@@ -3,7 +3,7 @@
   width: 800px;
   height: 450px;
   overflow: hidden;
-  margin: 200px auto;
+  margin: 0 auto;
 }
 .container {
   position: absolute;
